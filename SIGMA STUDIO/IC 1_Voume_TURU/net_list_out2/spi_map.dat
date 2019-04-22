@@ -1,0 +1,8 @@
+DCInpAlg1_2 0
+ExtSWGainDB1step_3 1
+SingleBandLevelDet2TCONST_5 2
+SingleBandLevelDet2hold_5 3
+SingleBandLevelDet2decay_5 4
+SingleBandLevelDet1TCONST_6 5
+SingleBandLevelDet1hold_6 6
+SingleBandLevelDet1decay_6 7
