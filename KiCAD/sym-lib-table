@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name FreeDSP_SMD-rescue)(type Legacy)(uri ${KIPRJMOD}/FreeDSP_SMD-rescue.lib)(options "")(descr ""))
+)

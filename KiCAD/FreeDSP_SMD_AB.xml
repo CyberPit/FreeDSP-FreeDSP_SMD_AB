@@ -1,0 +1,3029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Volumes/iMacHDD/Users/HILO/Documents/KICAD_DATA/ADAU1701/FreeDSP_SMD_AB_20190128/FreeDSP_SMD_AB_Final/FreeDSP_SMD_AB.sch</source>
+    <date>Saturday, 20 April 2019 at 13:22:45</date>
+    <tool>Eeschema (5.1.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>FreeDSP AUAU1701 A/B Switchable Audio Board </title>
+        <company>CyberPit HILO</company>
+        <rev>0.4</rev>
+        <date>2019-04-20</date>
+        <source>FreeDSP_SMD_AB.sch</source>
+        <comment number="1" value="https://cyberpithilo.web.fc2.com/"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Designed by Hiroshi Fukushima"/>
+        <comment number="4" value="FreeDSP ADAU1701 A/B Switchable SMD Board"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>ADAU1701</value>
+      <footprint>Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="ADAU1701-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55396BF6</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>18k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397120</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>18k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397132</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>18k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397139</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397145</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397206</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397343</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397350</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397552</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>12.288MHz</value>
+      <footprint>Crystals:Crystal_HC49-U_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="CRYSTAL-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397564</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>22p</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>553975B5</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>22p</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>553975C0</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>470R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397684</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>56n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5539768A</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>3n3</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397690</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397782</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5539784E</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397854</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1000PF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397CDA</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397CE0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>150P</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397D00</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397D24</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397E8A</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10u</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397F07</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>10u</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397F39</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>10u</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55397F6B</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>3n3</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55398B6B</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55398B7C</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55398B8C</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>3n3</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55398D52</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55398D58</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55398D5E</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>3n3</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55398D73</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55398D79</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55398D7F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>3n3</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55398D94</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55398D9A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55398DA0</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>220u</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5539951C</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>220u</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55399538</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5539985C</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55399E5D</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>USBi</value>
+      <footprint>Connectors_Multicomp:Multicomp_MC9A12-1034_2x05x2.54mm_Straight</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="CONN_10-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5539AA48</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5539AE9B</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>24AA256</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="I2CFLASH-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5539B417</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5539B42A</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5539B590</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5539B596</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55460807</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566993B6</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566A1D67</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>573ADFB1</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>LRCLK_BRIDGE</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="JUMPER-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575AD9D5</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>BCK_BRIDGE</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="JUMPER-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575ADB7C</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>WP</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="JUMPER-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59DD976C</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LME49720</value>
+      <footprint>LME49720MA_NOPB:SOIC127P600X175-8N</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C45A1CF</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LME49720</value>
+      <footprint>LME49720MA_NOPB:SOIC127P600X175-8N</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C47F427</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LME49720</value>
+      <footprint>LME49720MA_NOPB:SOIC127P600X175-8N</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C483AD2</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>24AA256</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="I2CFLASH-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C654FDE</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C654FE4</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C655014</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C655029</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>WP</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="JUMPER-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C65503B</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x10_Odd_Even</value>
+      <footprint>Connectors_Multicomp:Multicomp_MC9A12-2034_2x10x2.54mm_Straight</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="Conn_02x10_Odd_Even-conn-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7E7ADD</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>NOPOP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8F3214</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>R_POT_TRIM_US</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3339P_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM_US" description="Trim-potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C978A92</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>R_POT_TRIM_US</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3339P_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM_US" description="Trim-potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C978F99</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>R_POT_TRIM_US</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3339P_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM_US" description="Trim-potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C981E15</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAFA8BD</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_Coaxial_Power</value>
+      <footprint>Connect:BARREL_JACK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="Conn_Coaxial_Power-conn-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C584B0E</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>150P</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C651876</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7411B8</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C875340</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C896C94</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1000PF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C97B5A5</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C97B5AC</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>150P</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C97B5B3</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C97B5BA</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>150P</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C97B5C9</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C97B5D1</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C97B5E7</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C97B5EF</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1000PF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C984741</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C984748</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>150P</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C98474F</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C984756</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>150P</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C984765</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C98476D</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C984783</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C98478B</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>1000PF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C98F028</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C98F02F</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>150P</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C98F036</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C98F03D</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>150P</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C98F04C</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C98F054</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C98F06A</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C98F072</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LME49720</value>
+      <footprint>LME49720MA_NOPB:SOIC127P600X175-8N</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA45179</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAB54A9</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CADC56F</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB60D3D</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBD890C</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBE62E8</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBF41CC</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCA2DC4</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCCFC28</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDBBBC8</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE8548F</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0169F7</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>2.2uF/16</value>
+      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D055246</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>2.2uF/16</value>
+      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D07DFFB</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0928A1</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0E3DDE</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>47uF/6.3</value>
+      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D13450F</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>47uF/6.3</value>
+      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D16E7CD</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_Coaxial</value>
+      <footprint>MyFootprints:RJ-2410N</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D182463</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_Coaxial</value>
+      <footprint>MyFootprints:RJ-2410N</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1D09CA</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2SC3326</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C484A44</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2SC3326</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5B63AF</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2SC3326</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C67F439</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>2SC3326</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C695AEF</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C71FCD2</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C904014</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C91B846</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C93351F</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>IRLML6402</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML6402" description="-3.7A Id, -20V Vds, P-Channel MOSFET, 65mOhm Rds, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA7944C</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>220u</value>
+      <footprint>Capacitors_THT:CP_Radial_Tantal_D10.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB2C377</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>1MEG</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB7B042</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC35EB2</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_Coaxial</value>
+      <footprint>MyFootprints:RJ-2410N</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9FB83B</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_Coaxial</value>
+      <footprint>MyFootprints:RJ-2410N</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA6A86C</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_Coaxial</value>
+      <footprint>MyFootprints:RJ-2410N</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CABC129</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_Coaxial</value>
+      <footprint>MyFootprints:RJ-2410N</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAD6F7F</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>digikey-footprints:Switch_Slide_11.6x4mm_EG1218</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1931DF</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74LV541A</value>
+      <footprint>digikey-footprints:TSSOP-20_W4.4mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HCT541</datasheet>
+      <libsource lib="74xx" part="74HCT541" description="8-bit Buffer/Line Driver 3-state outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3BDD8E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD4BC05</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDDCB8E</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE00717</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE242A1</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE47E30</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE6B9C0</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE8F54D</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E02CB0C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0A31AF</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>NOPOP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E192356</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3F31A9</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_6pol</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="Conn_01x06-conn-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6B940E</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF754A2</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>AZ1117-ADJ</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AZ1117.pdf</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="AZ1117-ADJ-regul-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4D60CB</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>AZ1117-ADJ</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AZ1117.pdf</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="AZ1117-ADJ-regul-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4D6257</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>680R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C750F11</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>360R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7BB388</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>220R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7F090F</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>220R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C90052A</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>MountingHole_Pad</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9E6214</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>MountingHole_Pad</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA1EC6E</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>MountingHole_Pad</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA56CF0</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>MountingHole_Pad</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA8ED73</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>2SB1203</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDE507B</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C733C7A</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C564213</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C789576</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7CE0D7</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8557DA</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C967F08</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED_RED</value>
+      <footprint>LEDs:LED_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA08302</tstamp>
+    </comp>
+    <comp ref="R78">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA12D5A</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC00BED</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>SMD-INDUCTOR-10UH-225MA-10%_0806_</value>
+      <footprint>Inductors:Inductor_1212</footprint>
+      <fields>
+        <field name="MPN">LQH2MCN100K02L</field>
+        <field name="SKU">303010042</field>
+      </fields>
+      <libsource lib="OPL_Inductor" part="SMD-INDUCTOR-10UH-225MA-10%_0806_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC07D19</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCA976F</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD980AF</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEC1CC5</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D97DA</tstamp>
+    </comp>
+    <comp ref="R80">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3D360F</tstamp>
+    </comp>
+    <comp ref="R79">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5127CF</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5B8F27</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDEC82D</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE3B2D4</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE896A2</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148W</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F69DA8A</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>RB160M-30</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F79E19A</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>RB160M-30</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7A2E82</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FADCFE6</tstamp>
+    </comp>
+    <comp ref="R81">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD7B199</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DIODE</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_ALT" description="Diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A09B09</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A11AC2</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2N7002</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC798D</tstamp>
+    </comp>
+    <comp ref="R82">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6111A8A1</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>RB160M-30</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBBD023</tstamp>
+    </comp>
+    <comp ref="R83">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC01F59</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>RB160M-30</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE0BDAA</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>5V ext</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="FreeDSP_SMD-rescue" part="JUMPER-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566A6CA5</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148W</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D662DE7</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS541">
+      <aliases>
+        <alias>74HCT541</alias>
+      </aliases>
+      <description>8-bit Buffer/Line Driver 3-state outputs</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS541</docs>
+      <footprints>
+        <fp>DIP?20*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS541</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="A1" type="input"/>
+        <pin num="4" name="A2" type="input"/>
+        <pin num="5" name="A3" type="input"/>
+        <pin num="6" name="A4" type="input"/>
+        <pin num="7" name="A5" type="input"/>
+        <pin num="8" name="A6" type="input"/>
+        <pin num="9" name="A7" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="Y7" type="3state"/>
+        <pin num="12" name="Y6" type="3state"/>
+        <pin num="13" name="Y5" type="3state"/>
+        <pin num="14" name="Y4" type="3state"/>
+        <pin num="15" name="Y3" type="3state"/>
+        <pin num="16" name="Y2" type="3state"/>
+        <pin num="17" name="Y1" type="3state"/>
+        <pin num="18" name="Y0" type="3state"/>
+        <pin num="19" name="G2" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_ALT">
+      <description>Diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_ALT">
+      <description>Light emitting diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_BCE">
+      <description>PNP transistor, base/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_BCE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_TRIM_US">
+      <description>Trim-potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_TRIM_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MMSD914">
+      <aliases>
+        <alias>1N4148W</alias>
+        <alias>BAV16W</alias>
+        <alias>1N4448W</alias>
+        <alias>MMSD4148</alias>
+      </aliases>
+      <description>100V 0.2A Switching Diode, SOD-123</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MMSD914T1-D.PDF</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MMSD914</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FreeDSP_SMD-rescue" part="2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue">
+      <footprints>
+        <fp>TO-220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-220_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FreeDSP_SMD-rescue" part="ADAU1701-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ADAU1701-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AGND" type="power_in"/>
+        <pin num="2" name="ADC0" type="input"/>
+        <pin num="3" name="ADC_RES" type="input"/>
+        <pin num="4" name="ADC1" type="input"/>
+        <pin num="5" name="_RESET" type="input"/>
+        <pin num="6" name="SELFBOOT" type="input"/>
+        <pin num="7" name="ADDR0" type="input"/>
+        <pin num="8" name="MP4" type="BiDi"/>
+        <pin num="9" name="MP5" type="BiDi"/>
+        <pin num="10" name="MP1" type="BiDi"/>
+        <pin num="11" name="MP0" type="BiDi"/>
+        <pin num="12" name="DGND" type="power_in"/>
+        <pin num="13" name="DVDD" type="power_in"/>
+        <pin num="14" name="MP7" type="BiDi"/>
+        <pin num="15" name="MP6" type="BiDi"/>
+        <pin num="16" name="MP10" type="BiDi"/>
+        <pin num="17" name="VDRIVE" type="output"/>
+        <pin num="18" name="IOVDD" type="power_in"/>
+        <pin num="19" name="MP11" type="BiDi"/>
+        <pin num="20" name="ADDR1/CDATA/WB" type="input"/>
+        <pin num="21" name="CLATCH/WP" type="BiDi"/>
+        <pin num="22" name="SDA/COUT" type="BiDi"/>
+        <pin num="23" name="SCL/CCLK" type="BiDi"/>
+        <pin num="24" name="DVDD" type="power_in"/>
+        <pin num="25" name="DGND" type="power_in"/>
+        <pin num="26" name="MP9" type="BiDi"/>
+        <pin num="27" name="MP8" type="BiDi"/>
+        <pin num="28" name="MP3" type="BiDi"/>
+        <pin num="29" name="MP2" type="BiDi"/>
+        <pin num="30" name="RSVD" type="unspc"/>
+        <pin num="31" name="OSCO" type="output"/>
+        <pin num="32" name="MCLKI" type="input"/>
+        <pin num="33" name="PGND" type="power_in"/>
+        <pin num="34" name="PVDD" type="power_in"/>
+        <pin num="35" name="PLL_LF" type="output"/>
+        <pin num="36" name="AVDD" type="power_in"/>
+        <pin num="37" name="AGND" type="power_in"/>
+        <pin num="38" name="PLL_MODE0" type="input"/>
+        <pin num="39" name="PLL_MODE1" type="input"/>
+        <pin num="40" name="CM" type="output"/>
+        <pin num="41" name="FILTD" type="output"/>
+        <pin num="42" name="AGND" type="power_in"/>
+        <pin num="43" name="VOUT3" type="output"/>
+        <pin num="44" name="VOUT2" type="output"/>
+        <pin num="45" name="VOUT1" type="output"/>
+        <pin num="46" name="VOUT0" type="output"/>
+        <pin num="47" name="FILTA" type="output"/>
+        <pin num="48" name="AVDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FreeDSP_SMD-rescue" part="AZ1117-ADJ-regul-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue">
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>SOT?89*</fp>
+        <fp>TO?220*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AZ1117-ADJ-regul-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FreeDSP_SMD-rescue" part="C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FreeDSP_SMD-rescue" part="CONN_10-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_10-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FreeDSP_SMD-rescue" part="CRYSTAL-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FreeDSP_SMD-rescue" part="Conn_01x06-conn-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06-conn-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FreeDSP_SMD-rescue" part="Conn_02x10_Odd_Even-conn-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x10_Odd_Even-conn-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FreeDSP_SMD-rescue" part="Conn_Coaxial_Power-conn-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue">
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial_Power-conn-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FreeDSP_SMD-rescue" part="I2CFLASH-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">I2CFLASH-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="VSS" type="input"/>
+        <pin num="5" name="SDA" type="input"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="FreeDSP_SMD-rescue" part="JUMPER-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FreeDSP_SMD-rescue" part="LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LME49720-SamacSys_Parts-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FreeDSP_SMD-rescue" part="R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Inductor" part="SMD-INDUCTOR-10UH-225MA-10%_0806_">
+      <footprints>
+        <fp>*L0806*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">SMD-INDUCTOR-10UH-225MA-10%_0806_</field>
+        <field name="MPN">LQH2MCN100K02L</field>
+        <field name="SKU">303010042</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML2060</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="TP0610T">
+      <aliases>
+        <alias>VP0610T</alias>
+        <alias>BSS84</alias>
+        <alias>NTR2101P</alias>
+        <alias>BSS83P</alias>
+        <alias>Si2319CDS</alias>
+        <alias>IRLML6402</alias>
+      </aliases>
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23-3</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TP0610T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/Library/Application Support/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Library/Application Support/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="FreeDSP_SMD-rescue">
+      <uri>/Volumes/iMacHDD/Users/HILO/Documents/KICAD_DATA/ADAU1701/FreeDSP_SMD_AB_20190128/FreeDSP_SMD_AB_Final/FreeDSP_SMD-rescue.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="OPL_Inductor">
+      <uri>/Volumes/iMacHDD/Users/HILO/Documents/KICAD_DATA/MyFootprints/OPL_Kicad_Library-master/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Inductor.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Library/Application Support/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Library/Application Support/kicad/library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C43-Pad1)">
+      <node ref="Q8" pin="2"/>
+      <node ref="C44" pin="1"/>
+      <node ref="IC1" pin="13"/>
+      <node ref="C43" pin="1"/>
+      <node ref="IC1" pin="24"/>
+    </net>
+    <net code="2" name="Net-(IC1-Pad2)">
+      <node ref="R36" pin="2"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="3" name="WB">
+      <node ref="J3" pin="4"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="R61" pin="2"/>
+    </net>
+    <net code="4" name="Net-(IC1-Pad4)">
+      <node ref="R46" pin="2"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="5" name="Net-(IC1-Pad3)">
+      <node ref="R40" pin="2"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="6" name="MP4">
+      <node ref="JP1" pin="2"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="J3" pin="18"/>
+    </net>
+    <net code="7" name="MP5">
+      <node ref="JP2" pin="2"/>
+      <node ref="J3" pin="16"/>
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="8" name="MP1">
+      <node ref="IC1" pin="10"/>
+      <node ref="J3" pin="14"/>
+      <node ref="J10" pin="3"/>
+    </net>
+    <net code="9" name="MP0">
+      <node ref="J1" pin="5"/>
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="10" name="MP7">
+      <node ref="U2" pin="4"/>
+      <node ref="IC1" pin="14"/>
+    </net>
+    <net code="11" name="MP6">
+      <node ref="U2" pin="2"/>
+      <node ref="IC1" pin="15"/>
+    </net>
+    <net code="12" name="MP10">
+      <node ref="R79" pin="1"/>
+      <node ref="IC1" pin="16"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="13" name="Net-(IC1-Pad17)">
+      <node ref="Q8" pin="1"/>
+      <node ref="R60" pin="1"/>
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="14" name="MP11">
+      <node ref="IC1" pin="19"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="15" name="/WP">
+      <node ref="IC1" pin="21"/>
+      <node ref="R59" pin="1"/>
+    </net>
+    <net code="16" name="SDA">
+      <node ref="IC1" pin="22"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J10" pin="11"/>
+      <node ref="P1" pin="3"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="17" name="SCL">
+      <node ref="IC3" pin="6"/>
+      <node ref="P1" pin="1"/>
+      <node ref="IC1" pin="23"/>
+      <node ref="R54" pin="1"/>
+      <node ref="J10" pin="13"/>
+      <node ref="J3" pin="3"/>
+      <node ref="IC2" pin="6"/>
+    </net>
+    <net code="18" name="MP9">
+      <node ref="IC1" pin="26"/>
+      <node ref="RV3" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="19" name="MP8">
+      <node ref="U2" pin="5"/>
+      <node ref="IC1" pin="27"/>
+    </net>
+    <net code="20" name="MP3">
+      <node ref="RV2" pin="2"/>
+      <node ref="IC1" pin="28"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="21" name="MP2">
+      <node ref="RV1" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="IC1" pin="29"/>
+    </net>
+    <net code="22" name="MCLK">
+      <node ref="R48" pin="1"/>
+      <node ref="R81" pin="1"/>
+      <node ref="IC1" pin="31"/>
+    </net>
+    <net code="23" name="Net-(C27-Pad1)">
+      <node ref="R48" pin="2"/>
+      <node ref="X1" pin="1"/>
+      <node ref="C27" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C20-Pad2)">
+      <node ref="R37" pin="1"/>
+      <node ref="C20" pin="2"/>
+    </net>
+    <net code="25" name="Net-(C19-Pad2)">
+      <node ref="IC1" pin="35"/>
+      <node ref="R37" pin="2"/>
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="26" name="Net-(C12-Pad1)">
+      <node ref="IC1" pin="41"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="IC1" pin="47"/>
+    </net>
+    <net code="28" name="Net-(C5-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="29" name="Net-(C1-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="30" name="Net-(C3-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="31" name="Net-(C23-Pad2)">
+      <node ref="R35" pin="1"/>
+      <node ref="C23" pin="2"/>
+    </net>
+    <net code="32" name="Net-(C33-Pad2)">
+      <node ref="R56" pin="1"/>
+      <node ref="C33" pin="2"/>
+    </net>
+    <net code="33" name="/DAC3">
+      <node ref="IC1" pin="43"/>
+      <node ref="R51" pin="1"/>
+    </net>
+    <net code="34" name="/DAC2">
+      <node ref="IC1" pin="44"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="35" name="/DAC1">
+      <node ref="IC1" pin="45"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="36" name="/DAC0">
+      <node ref="R2" pin="1"/>
+      <node ref="IC1" pin="46"/>
+    </net>
+    <net code="37" name="Net-(C9-Pad2)">
+      <node ref="R22" pin="1"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="38" name="Net-(C4-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="39" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="40" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="41" name="Net-(P1-Pad5)">
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="42" name="Net-(P1-Pad7)">
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="43" name="Net-(P1-Pad8)">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="44" name="Net-(P1-Pad9)">
+      <node ref="P1" pin="9"/>
+    </net>
+    <net code="45" name="Net-(IC2-Pad5)">
+      <node ref="R53" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="IC2" pin="5"/>
+    </net>
+    <net code="46" name="Net-(C13-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="47" name="Net-(C1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="48" name="Net-(IC3-Pad5)">
+      <node ref="SW1" pin="3"/>
+      <node ref="R71" pin="1"/>
+      <node ref="IC3" pin="5"/>
+    </net>
+    <net code="49" name="Net-(IC3-Pad7)">
+      <node ref="JP5" pin="1"/>
+      <node ref="R72" pin="1"/>
+      <node ref="IC3" pin="7"/>
+    </net>
+    <net code="50" name="Net-(C28-Pad1)">
+      <node ref="IC1" pin="32"/>
+      <node ref="R47" pin="1"/>
+      <node ref="X1" pin="2"/>
+      <node ref="C28" pin="1"/>
+    </net>
+    <net code="51" name="MCLKI">
+      <node ref="R47" pin="2"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="52" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="53" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="54" name="Net-(C8-Pad1)">
+      <node ref="R18" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="55" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="56" name="Net-(C25-Pad1)">
+      <node ref="C25" pin="1"/>
+      <node ref="R39" pin="2"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="57" name="Net-(C18-Pad2)">
+      <node ref="C18" pin="2"/>
+      <node ref="R33" pin="1"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="58" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="R33" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="59" name="Net-(C18-Pad1)">
+      <node ref="U5" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="60" name="Net-(C34-Pad1)">
+      <node ref="C34" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R58" pin="2"/>
+    </net>
+    <net code="61" name="Net-(C29-Pad2)">
+      <node ref="U5" pin="6"/>
+      <node ref="R52" pin="1"/>
+      <node ref="C29" pin="2"/>
+    </net>
+    <net code="62" name="Net-(C32-Pad1)">
+      <node ref="R51" pin="2"/>
+      <node ref="R52" pin="2"/>
+      <node ref="R50" pin="2"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="63" name="Net-(C29-Pad1)">
+      <node ref="C29" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="R50" pin="1"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="64" name="+1V5">
+      <node ref="U4" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R57" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="65" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="IC1" pin="40"/>
+    </net>
+    <net code="66" name="Net-(C17-Pad2)">
+      <node ref="U4" pin="3"/>
+      <node ref="C17" pin="2"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="67" name="Net-(C3-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="68" name="+5VA">
+      <node ref="R11" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="6"/>
+      <node ref="R42" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R63" pin="2"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="69" name="Net-(C8-Pad2)">
+      <node ref="R26" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="70" name="Net-(C21-Pad2)">
+      <node ref="R38" pin="2"/>
+      <node ref="R42" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="71" name="Net-(C32-Pad2)">
+      <node ref="R63" pin="1"/>
+      <node ref="R57" pin="2"/>
+      <node ref="R58" pin="1"/>
+      <node ref="C32" pin="2"/>
+    </net>
+    <net code="72" name="Net-(C47-Pad1)">
+      <node ref="C47" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R74" pin="1"/>
+    </net>
+    <net code="73" name="GND">
+      <node ref="JP3" pin="1"/>
+      <node ref="R82" pin="2"/>
+      <node ref="J9" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R61" pin="1"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="RV3" pin="1"/>
+      <node ref="IC1" pin="12"/>
+      <node ref="IC1" pin="25"/>
+      <node ref="IC1" pin="30"/>
+      <node ref="IC1" pin="33"/>
+      <node ref="C60" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C59" pin="2"/>
+      <node ref="C58" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="J3" pin="11"/>
+      <node ref="IC1" pin="37"/>
+      <node ref="JP5" pin="2"/>
+      <node ref="IC1" pin="38"/>
+      <node ref="C56" pin="1"/>
+      <node ref="R80" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="IC3" pin="3"/>
+      <node ref="IC3" pin="2"/>
+      <node ref="IC3" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C51" pin="1"/>
+      <node ref="C50" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C53" pin="1"/>
+      <node ref="JP4" pin="2"/>
+      <node ref="C52" pin="1"/>
+      <node ref="IC1" pin="42"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="C49" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="R76" pin="1"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="19"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C37" pin="2"/>
+      <node ref="J10" pin="8"/>
+      <node ref="J10" pin="6"/>
+      <node ref="J10" pin="4"/>
+      <node ref="J10" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="J10" pin="16"/>
+      <node ref="J10" pin="12"/>
+      <node ref="J10" pin="10"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="MH1" pin="1"/>
+      <node ref="R69" pin="2"/>
+      <node ref="R68" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="P1" pin="10"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R67" pin="2"/>
+      <node ref="C41" pin="2"/>
+    </net>
+    <net code="74" name="Net-(C24-Pad1)">
+      <node ref="R45" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="75" name="Net-(C13-Pad2)">
+      <node ref="R36" pin="1"/>
+      <node ref="C13" pin="2"/>
+    </net>
+    <net code="76" name="Net-(C22-Pad2)">
+      <node ref="R46" pin="1"/>
+      <node ref="C22" pin="2"/>
+    </net>
+    <net code="77" name="Net-(C14-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="R29" pin="1"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="78" name="Net-(C22-Pad1)">
+      <node ref="U3" pin="7"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="79" name="Net-(C14-Pad2)">
+      <node ref="R28" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="80" name="Net-(J5-Pad2)">
+      <node ref="R28" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="R44" pin="1"/>
+      <node ref="J7" pin="2"/>
+      <node ref="R40" pin="1"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="81" name="Net-(C24-Pad2)">
+      <node ref="C24" pin="2"/>
+      <node ref="R44" pin="2"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="82" name="Net-(Q1-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="83" name="Net-(C6-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="84" name="GNDS">
+      <node ref="C6" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="R41" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R62" pin="2"/>
+      <node ref="R76" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R10" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="R25" pin="2"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="85" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="86" name="Net-(C11-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="87" name="Net-(Q5-Pad1)">
+      <node ref="R43" pin="1"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="88" name="Net-(C26-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="R41" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="89" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1"/>
+      <node ref="R64" pin="1"/>
+    </net>
+    <net code="90" name="Net-(C35-Pad1)">
+      <node ref="Q7" pin="2"/>
+      <node ref="C35" pin="1"/>
+      <node ref="R62" pin="1"/>
+      <node ref="R56" pin="2"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="91" name="/_MUTE">
+      <node ref="D1" pin="2"/>
+      <node ref="R64" pin="2"/>
+      <node ref="R83" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="92" name="Net-(C46-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="R73" pin="1"/>
+    </net>
+    <net code="93" name="Net-(C49-Pad1)">
+      <node ref="R73" pin="2"/>
+      <node ref="C49" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="Q10" pin="1"/>
+    </net>
+    <net code="94" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="95" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="96" name="Net-(R15-Pad1)">
+      <node ref="U2" pin="14"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="97" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="98" name="Net-(R13-Pad1)">
+      <node ref="U2" pin="16"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="99" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="100" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="101" name="Net-(R81-Pad2)">
+      <node ref="U2" pin="8"/>
+      <node ref="R81" pin="2"/>
+    </net>
+    <net code="102" name="Net-(J3-Pad20)">
+      <node ref="U2" pin="9"/>
+      <node ref="J3" pin="20"/>
+    </net>
+    <net code="103" name="Net-(J3-Pad5)">
+      <node ref="J3" pin="5"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="104" name="Net-(J3-Pad7)">
+      <node ref="R9" pin="2"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="105" name="Net-(J3-Pad8)">
+      <node ref="R13" pin="2"/>
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="106" name="Net-(IC2-Pad7)">
+      <node ref="R55" pin="1"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="R59" pin="2"/>
+      <node ref="JP4" pin="1"/>
+    </net>
+    <net code="107" name="Net-(C55-Pad1)">
+      <node ref="R75" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="C55" pin="1"/>
+    </net>
+    <net code="108" name="Net-(C56-Pad2)">
+      <node ref="C56" pin="2"/>
+      <node ref="R75" pin="2"/>
+      <node ref="R83" pin="1"/>
+    </net>
+    <net code="109" name="+12V">
+      <node ref="U3" pin="8"/>
+      <node ref="C52" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="C36" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C53" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J10" pin="1"/>
+      <node ref="U5" pin="8"/>
+      <node ref="R67" pin="1"/>
+    </net>
+    <net code="110" name="+5V">
+      <node ref="C38" pin="1"/>
+      <node ref="R78" pin="2"/>
+      <node ref="R74" pin="2"/>
+      <node ref="R65" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C37" pin="1"/>
+    </net>
+    <net code="111" name="Net-(R66-Pad2)">
+      <node ref="R69" pin="1"/>
+      <node ref="R66" pin="2"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="112" name="Net-(R65-Pad2)">
+      <node ref="R68" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="R65" pin="2"/>
+    </net>
+    <net code="113" name="Net-(C57-Pad1)">
+      <node ref="C57" pin="1"/>
+      <node ref="MH2" pin="1"/>
+    </net>
+    <net code="114" name="Net-(C58-Pad1)">
+      <node ref="C58" pin="1"/>
+      <node ref="MH3" pin="1"/>
+    </net>
+    <net code="115" name="Net-(C59-Pad1)">
+      <node ref="MH4" pin="1"/>
+      <node ref="C59" pin="1"/>
+    </net>
+    <net code="116" name="Net-(J10-Pad14)">
+      <node ref="R19" pin="1"/>
+      <node ref="J3" pin="12"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J10" pin="14"/>
+    </net>
+    <net code="117" name="DAC_DATA2">
+      <node ref="R14" pin="2"/>
+      <node ref="J3" pin="13"/>
+      <node ref="J10" pin="5"/>
+    </net>
+    <net code="118" name="DAC_BCLK">
+      <node ref="J10" pin="7"/>
+      <node ref="J3" pin="15"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="119" name="DAC_LRCK">
+      <node ref="J3" pin="17"/>
+      <node ref="J10" pin="9"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="120" name="DAC_MCLK">
+      <node ref="R17" pin="2"/>
+      <node ref="J10" pin="15"/>
+      <node ref="J3" pin="19"/>
+    </net>
+    <net code="121" name="Net-(D5-Pad2)">
+      <node ref="R78" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="122" name="Net-(C48-Pad1)">
+      <node ref="L1" pin="2"/>
+      <node ref="R70" pin="2"/>
+      <node ref="C48" pin="1"/>
+    </net>
+    <net code="123" name="Net-(C54-Pad1)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R70" pin="1"/>
+      <node ref="C54" pin="1"/>
+    </net>
+    <net code="124" name="Net-(C54-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C54" pin="2"/>
+    </net>
+    <net code="125" name="Net-(C48-Pad2)">
+      <node ref="D7" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="R80" pin="1"/>
+      <node ref="C55" pin="2"/>
+    </net>
+    <net code="126" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R79" pin="2"/>
+    </net>
+    <net code="127" name="_RESET">
+      <node ref="D2" pin="2"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="P1" pin="6"/>
+      <node ref="J3" pin="6"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="C30" pin="1"/>
+      <node ref="R49" pin="1"/>
+    </net>
+    <net code="128" name="3V3">
+      <node ref="R49" pin="2"/>
+      <node ref="IC3" pin="8"/>
+      <node ref="C45" pin="1"/>
+      <node ref="R71" pin="2"/>
+      <node ref="R55" pin="2"/>
+      <node ref="R72" pin="2"/>
+      <node ref="IC1" pin="39"/>
+      <node ref="C42" pin="1"/>
+      <node ref="R60" pin="2"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="R53" pin="2"/>
+      <node ref="R66" pin="1"/>
+      <node ref="J3" pin="10"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C31" pin="1"/>
+      <node ref="IC2" pin="8"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="IC1" pin="48"/>
+      <node ref="C41" pin="1"/>
+      <node ref="R54" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C60" pin="1"/>
+      <node ref="J3" pin="9"/>
+      <node ref="IC1" pin="36"/>
+      <node ref="IC1" pin="34"/>
+      <node ref="IC1" pin="18"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C40" pin="1"/>
+      <node ref="U2" pin="20"/>
+      <node ref="C39" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="129" name="Net-(Q4-Pad3)">
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="130" name="Net-(D1-Pad1)">
+      <node ref="Q4" pin="1"/>
+      <node ref="R82" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="131" name="Net-(D8-Pad1)">
+      <node ref="RV1" pin="3"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="RV3" pin="3"/>
+      <node ref="J1" pin="6"/>
+      <node ref="D8" pin="1"/>
+    </net>
+  </nets>
+</export>
