@@ -1,6 +1,6 @@
 # FreeDSP-FreeDSP_SMD_AB
 - 2in4out RCA jacks
-- ADAU1701 Board with selectable 2 Boot EEPROMs
+- ADAU1701 Board with selectable A/B Boot EEPROMs
 - SMD resisistors
 - Thtough-Hole Ele-Caps
 - Unity Gain I/O
