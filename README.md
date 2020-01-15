@@ -3,10 +3,10 @@
 - ADAU1701 Board with selectable A/B Boot EEPROMs
 - SMD resisistors
 - Thtough-Hole Ele-Caps
-- Unity Gain I/O
+- Unity Gain Analog Audio I/O
 - Absolute Phase transpearent.
-- Power ON/OFF Audio Mute
-- Buffered I2S I/O Headers
+- Power ON/OFF Audio Pops Mute
+- Buffered I2S I/O Headers (with Enable control feature)
 - Three Semi-Potentiometers on board or External via header pin. 
 
 I had registered this design at SeedStudio(FusionPCB) project Gallary, so you can order this board here easily https://www.seeedstudio.com/FreeDSP-SMD-A-B-ADAU1701-1401-Audio-DSP-Processing-Boar-g-1230721
