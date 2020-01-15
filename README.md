@@ -1,7 +1,7 @@
 # FreeDSP-FreeDSP_SMD_AB
 - 2in4out RCA jacks
 - ADAU1701 Board with selectable A/B Boot EEPROMs
-- SMD resisistors
+- 0805(2.0mm x 1.25mm) SMD Resistors
 - Thtough-Hole Ele-Caps
 - Unity Gain Analog Audio I/O
 - Absolute Phase transpearent.
