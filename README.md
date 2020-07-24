@@ -9,6 +9,12 @@
 - Buffered I2S I/O Headers (with Enable control feature)
 - Three Semi-Potentiometers on board or External via header pin. 
 
+Project web page: (Machine Translation)
+https://translate.google.com/translate?hl=ja&sl=ja&tl=en&u=https%3A%2F%2Fcyberpithilo.web.fc2.com%2Faudio%2Ffreedsp%2Findex.html
+
+Project web page: (Direct Link)
+https://cyberpithilo.web.fc2.com/audio/freedsp/index.html
+
 I had registered this design at SeedStudio(FusionPCB) project Gallary, so you can order this board here easily https://www.seeedstudio.com/FreeDSP-SMD-A-B-ADAU1701-1401-Audio-DSP-Processing-Boar-g-1230721
 
 # License
