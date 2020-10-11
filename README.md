@@ -1,5 +1,6 @@
 # FreeDSP-FreeDSP_SMD_AB
 - 2in4out RCA jacks
+- A/B selectable EEPROM
 - ADAU1701 Board with selectable A/B Boot EEPROMs
 - 0805(2.0mm x 1.25mm) SMD Resistors
 - Through-Hole Ele-Caps
