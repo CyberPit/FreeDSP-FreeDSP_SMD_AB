@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:FreeDSP_SMD_AB-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "FreeDSP AUAU1701 A/B Switchable Audio Board "
-Date "2019-04-20"
-Rev "0.41"
+Title "FreeDSP Classic SMD A/B "
+Date "2020-11-22"
+Rev "0.42"
 Comp "CyberPit HILO"
 Comment1 "https://cyberpithilo.web.fc2.com/"
 Comment2 ""
@@ -74,7 +73,7 @@ L FreeDSP_SMD-rescue:R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-
 U 1 1 55397145
 P 4675 7175
 F 0 "R49" V 4755 7175 40  0000 C CNN
-F 1 "47k" V 4675 7175 40  0000 C CNN
+F 1 "4.7k" V 4675 7175 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4605 7175 30  0001 C CNN
 F 3 "~" H 4675 7175 30  0000 C CNN
 	1    4675 7175
@@ -3486,26 +3485,26 @@ F 3 "" H 10025 5625 50  0001 C CNN
 	1    10025 5625
 	1    0    0    -1  
 $EndComp
-Text Notes 900  5925 0    50   ~ 10
+Text Notes 875  4675 0    50   ~ 10
 INPUT 0
-Wire Notes Line
-	900  5950 900  5825
-Wire Notes Line
-	1225 5950 1225 5825
 Wire Notes Line
 	875  4700 875  4575
 Wire Notes Line
 	1200 4700 1200 4575
 Wire Notes Line
-	875  4700 1200 4700
+	900  5925 900  5800
 Wire Notes Line
-	900  5825 1225 5825
+	1225 5925 1225 5800
 Wire Notes Line
-	900  5950 1225 5950
-Text Notes 875  4675 0    50   ~ 10
-INPUT 1
+	900  5925 1225 5925
 Wire Notes Line
 	875  4575 1200 4575
+Wire Notes Line
+	875  4700 1200 4700
+Text Notes 900  5900 0    50   ~ 10
+INPUT 1
+Wire Notes Line
+	900  5800 1225 5800
 Text Notes 15475 1900 0    50   ~ 10
 OUTPUT0
 Wire Notes Line
@@ -5313,16 +5312,6 @@ Text Notes 1975 1425 0    50   Italic 0
 (Shotkey)
 Text Notes 3625 1275 0    50   Italic 0
 Use Si Switching Diode for D1\nShotkey is NOT suitable
-Text Notes 875  4825 0    50   ~ 0
-(RIGHT)
-Text Notes 925  6075 0    50   ~ 0
-(LEFT)
-Text Notes 15425 4000 0    50   ~ 0
-(PRI-RIGHT)
-Text Notes 15450 2050 0    50   ~ 0
-(PRI-LEFT)
-Text Notes 15425 8075 0    50   ~ 0
-(2nd RIGHT)
-Text Notes 15425 6050 0    50   ~ 0
-(2nd LEFT)
+Text Notes 4950 6475 3    50   Italic 0
+Fixed: R49 vlalue to 4.7k
 $EndSCHEMATC
