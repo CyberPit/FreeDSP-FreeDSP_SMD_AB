@@ -12,7 +12,7 @@
 
 
 Project web page: (Direct Link)
-https%3A%2F%2Fcyberpithilo.web.fc2.com%2Faudio%2Ffreedsp%2Findex.html
+https://cyberpithilo.web.fc2.com/audio/freedsp/index.html
 
 Project web page: (Yandex Machine Translation)
 https://translate.yandex.com/translate?url=https%3A%2F%2Fcyberpithilo.web.fc2.com%2Faudio%2Ffreedsp%2Findex.html&lang=ja-en
