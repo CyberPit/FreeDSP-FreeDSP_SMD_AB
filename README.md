@@ -7,11 +7,11 @@
 - ADAU1701 single Board solution
 - 0805(2.0mm x 1.25mm) SMD Resistors
 - Through-hole Ele-Caps for Audio performance
-- Unity Gain Analog Audio I/O
+- 2V RMS Unity Gain Analog Audio I/O
 - Absolute Phase Transparent.
 - Power ON/OFF Audio Pops-Mute
 - Buffered I2S I/O Headers (with Enable control feature)
-- On board three semi-potentiometers or external controls via header pin. 
+- Onboard three semi-potentiometers or external controls via header pin. 
 
 
 Project web page: (Direct Link)
