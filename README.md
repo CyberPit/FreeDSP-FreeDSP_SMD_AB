@@ -4,13 +4,13 @@
 
 - 2in4out RCA jacks
 - A/B Selectable Boot EEPROMs
-- ADAU1701 single Board solution
+- ADAU1701 Single Board solution
 - 0805(2.0mm x 1.25mm) SMD Resistors
-- Through-hole Ele-Caps for Audio performance
+- Through-hole Ele-Caps for better Audio performance
 - 2V RMS Unity Gain Analog Audio I/O
 - Absolute Phase Transparent.
-- Power ON/OFF Audio Pops-Mute
-- Buffered I2S I/O Headers (with Enable control feature)
+- Power ON/OFF Audio Pops-Muting
+- Buffered I2S I/O Headers (with Output Enable control feature)
 - Onboard three semi-potentiometers or external controls via header pin. 
 
 
